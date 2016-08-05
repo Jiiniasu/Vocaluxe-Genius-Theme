@@ -5,7 +5,7 @@
     <Name>Regular</Name>
     <Author>Jiiniasu</Author>
     <VersionMajor>0</VersionMajor>
-    <VersionMinor>3</VersionMinor>
+    <VersionMinor>4</VersionMinor>
   </Info>
   <Colors>
     <Player1>
@@ -69,9 +69,9 @@
       <A>0.500</A>
     </StaticColorAlpha>
     <StaticWarningColor>
-      <R>0.890</R>
-      <G>0.890</G>
-      <B>0.890</B>
+      <R>0.882</R>
+      <G>0.149</G>
+      <B>0.110</B>
       <A>0.600</A>
     </StaticWarningColor>
     <ButtonColor>
@@ -102,7 +102,7 @@
       <R>0.890</R>
       <G>0.890</G>
       <B>0.890</B>
-      <A>1.000</A>
+      <A>0.500</A>
     </SelectSlideColor>
     <SelectSlideColorAlpha>
       <R>0.890</R>
@@ -210,11 +210,11 @@
   <Skins>
     <BG_Default>BG_Default.png</BG_Default>
     <BG_Options>BG_Default.png</BG_Options>
-	<BG_Loading>BG_Loading.png</BG_Loading>
-    <Menu>Menu.png</Menu>
+    <BG_Loading>BG_Loading.png</BG_Loading>
+    <Menu>SongMenu.png</Menu>
     <Button>Button.png</Button>
     <CoverTile>CoverTile.png</CoverTile>
-    <CoverBackground>CoverBackground.png</CoverBackground>
+    <CoverTextBackground>CoverTextBackground.png</CoverTextBackground>
     <Cursor>Cursor.png</Cursor>
     <TimeBar>TimeBar.png</TimeBar>
     <TimeLine>TimeLine.png</TimeLine>
@@ -238,7 +238,8 @@
     <SongMenu>SongMenu.png</SongMenu>
     <PauseBG>Pause.png</PauseBG>
     <EnergyBeam>EnergyBeam.png</EnergyBeam>
-	<SearchBar>SearchBar.png</SearchBar>
+    <SearchBar>SearchBar.png</SearchBar>
+    <PlaylistBG>PlaylistBG.png</PlaylistBG>
     <DuetIcon>DuetIcon.png</DuetIcon>
     <VideoIcon>VideoIcon.png</VideoIcon>
     <MedleyCalcIcon>MedleyCalcIcon.png</MedleyCalcIcon>
@@ -255,18 +256,20 @@
     <SingIcon>SingIcon.png</SingIcon>
     <Minus>MinusIcon.png</Minus>
     <Plus>PlusIcon.png</Plus>
-	<VolUp>VolUp.png</VolUp>
+    <VolUp>VolUp.png</VolUp>
     <VolDown>VolDown.png</VolDown>
     <Random>RandomIcon.png</Random>
     <PopupBG>PopupBG.png</PopupBG>
     <ScrollUp>ScrollUp.png</ScrollUp>
     <ScrollDown>ScrollDown.png</ScrollDown>
-	<VocaluxeLogo>VocaluxeLogo.png</VocaluxeLogo>
-	<SongSelectButton>SongSelectButton.png</SongSelectButton>
+    <VocaluxeLogo>VocaluxeLogo.png</VocaluxeLogo>
+    <SongSelectButton>SongSelectButton.png</SongSelectButton>
+    <Warning>Warning.png</Warning>
+    <PlayerSelBG>PlayerSelBG.png</PlayerSelBG>
   </Skins>
   <Videos>
     <BG_Video>BG_Video.mp4</BG_Video>
-    <IntroIn>IntroMid.mp4</IntroIn>
+    <IntroIn>Introin.mp4</IntroIn>
     <IntroMid>IntroMid.mp4</IntroMid>
     <IntroOut>IntroOut.mp4</IntroOut>
   </Videos>

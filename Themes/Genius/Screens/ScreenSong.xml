@@ -16,7 +16,7 @@
   <Statics>
     <Static Name="Static1">
       <Skin>SongMenu</Skin>
-      <Color Name="StaticColor" />
+      <Color Name="StaticColorAlpha" />
       <Rect>
         <X>410</X>
         <Y>600</Y>
@@ -46,7 +46,7 @@
     </Static>
     <Static Name="StaticSearchBar">
       <Skin>SearchBar</Skin>
-      <Color Name="StaticColor" />
+      <Color Name="StaticColorAlpha" />
       <Rect>
         <X>40</X>
         <Y>600</Y>
@@ -170,8 +170,8 @@
       <Font>Outline</Font>
       <Text />
       <Reflection>
-        <Height>26</Height>
-        <Space>24</Space>
+        <Height>13</Height>
+        <Space>33</Space>
       </Reflection>
     </Text>
     <Text Name="TextSelection">
@@ -220,8 +220,8 @@
       <Font>Outline</Font>
       <Text />
 	  <Reflection>
-        <Height>16</Height>
-        <Space>30</Space>
+        <Height>14</Height>
+        <Space>32</Space>
       </Reflection>
     </Text>
     <Text Name="TextOptionsTitle">
@@ -738,7 +738,7 @@
   <SongMenus>
     <SongMenu Name="SongMenu">
       <CoverBackground>CoverTile</CoverBackground>
-      <CoverBigBackground>CoverBackground</CoverBigBackground>
+      <CoverBigBackground />
       <DuetIcon>DuetIcon</DuetIcon>
       <VideoIcon>VideoIcon</VideoIcon>
       <MedleyCalcIcon>MedleyCalcIcon</MedleyCalcIcon>
@@ -813,7 +813,7 @@
           <Text />
         </TextSongLength>
         <StaticCoverBig Name="StaticCoverBig">
-          <Skin>CoverBackground</Skin>
+          <Skin />
           <Color Name="Visible" />
           <Rect>
             <X>40</X>
@@ -824,13 +824,13 @@
           </Rect>
         </StaticCoverBig>
         <StaticTextBG Name="StaticTextBG">
-          <Skin>CoverBackground</Skin>
-          <Color Name="StaticColor" />
+          <Skin>CoverTextBackground</Skin>
+          <Color Name="StaticColorAlpha" />
           <Rect>
             <X>40</X>
-            <Y>40</Y>
+            <Y>410</Y>
             <W>360</W>
-            <H>550</H>
+            <H>180</H>
             <Z>-1</Z>
           </Rect>
         </StaticTextBG>
@@ -877,7 +877,7 @@
             <H>40</H>
             <Z>-1</Z>
           </Rect>
-            </StaticMedleyTagIcon>
+        </StaticMedleyTagIcon>
       </SongMenuTileBoard>
       <SongMenuList>
         <ListLength>15</ListLength>
@@ -940,7 +940,7 @@
           <Text />
         </TextSongLength>
         <StaticCoverBig Name="StaticCoverBig">
-          <Skin>CoverBackground</Skin>
+          <Skin />
           <Color Name="Visible" />
           <Rect>
             <X>40</X>
@@ -951,13 +951,13 @@
           </Rect>
         </StaticCoverBig>
         <StaticTextBG Name="StaticTextBG">
-          <Skin>CoverBackground</Skin>
-          <Color Name="StaticColor" />
+          <Skin>CoverTextBackground</Skin>
+          <Color Name="StaticColorAlpha" />
           <Rect>
             <X>40</X>
-            <Y>40</Y>
+            <Y>410</Y>
             <W>360</W>
-            <H>550</H>
+            <H>180</H>
             <Z>-1</Z>
           </Rect>
         </StaticTextBG>
@@ -1152,14 +1152,14 @@
       </Rect>
       <RectArrowLeft>
         <X>45</X>
-        <Y>100</Y>
+        <Y>95</Y>
         <W>30</W>
         <H>30</H>
         <Z>-2.12</Z>
       </RectArrowLeft>
       <RectArrowRight>
         <X>365</X>
-        <Y>100</Y>
+        <Y>95</Y>
         <W>30</W>
         <H>30</H>
         <Z>-2.12</Z>
@@ -1195,8 +1195,8 @@
       <SkinBackground>CoverTile</SkinBackground>
       <SkinBackgroundSelected>CoverTile</SkinBackgroundSelected>
       <ColorBackground Name="StaticColorAlpha">
-		<A>0.3</A>
-	  </ColorBackground>
+        <A>0.3</A>
+      </ColorBackground>
       <SelColorBackground Name="StaticColorAlpha" />
       <Text1 Name="TextPart1">
         <X>54</X>
@@ -1224,8 +1224,8 @@
         </Rect>
         </StaticCover>
       <StaticPlaylistHeader Name="StaticPlaylistHeader">
-        <Skin>Menu</Skin>
-        <Color Name="StaticColor" />
+        <Skin>PlaylistBG</Skin>
+        <Color Name="StaticColorAlpha" />
         <Rect>
           <X>830</X>
           <Y>40</Y>
@@ -1235,8 +1235,8 @@
         </Rect>
         </StaticPlaylistHeader>
       <StaticPlaylistFooter Name="StaticPlaylistFooter">
-        <Skin>Menu</Skin>
-        <Color Name="StaticColor" />
+        <Skin>PlaylistBG</Skin>
+        <Color Name="StaticColorAlpha" />
         <Rect>
           <X>830</X>
           <Y>540</Y>
