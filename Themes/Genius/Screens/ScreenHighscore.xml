@@ -30,11 +30,11 @@
     <Text Name="Text1">
       <X>60</X>
       <Y>50</Y>
-      <Z>0</Z>
+      <Z>-1</Z>
       <H>27</H>
       <MaxW>0</MaxW>
       <Color Name="StaticColor" />
-      <SelColor Name="TextSelColor" />
+      <SelColor Name="StaticColor" />
       <Align>Left</Align>
       <ResizeAlign>Center</ResizeAlign>
       <Style>Bold</Style>
@@ -44,11 +44,11 @@
     <Text Name="TextSongName">
       <X>640</X>
       <Y>50</Y>
-      <Z>0</Z>
+      <Z>-1</Z>
       <H>27</H>
       <MaxW>0</MaxW>
       <Color Name="StaticColor" />
-      <SelColor Name="TextSelColor" />
+      <SelColor Name="StaticColor" />
       <Align>Center</Align>
       <ResizeAlign>Center</ResizeAlign>
       <Style>Bold</Style>
@@ -58,11 +58,11 @@
     <Text Name="TextSongMode">
       <X>1220</X>
       <Y>50</Y>
-      <Z>0</Z>
+      <Z>-1</Z>
       <H>27</H>
       <MaxW>0</MaxW>
       <Color Name="StaticColor" />
-      <SelColor Name="TextSelColor" />
+      <SelColor Name="StaticColor" />
       <Align>Right</Align>
       <ResizeAlign>Center</ResizeAlign>
       <Style>Bold</Style>
@@ -87,7 +87,7 @@
       <X>120</X>
       <Y>160</Y>
       <Z>0</Z>
-      <H>42</H>
+      <H>35</H>
       <MaxW>0</MaxW>
       <Color Name="StaticColor" />
       <SelColor Name="TextSelColor" />
@@ -651,7 +651,7 @@
       <Color Name="StaticColor" />
       <Type>Star</Type>
       <Size>25</Size>
-      <MaxNumber>250</MaxNumber>
+      <MaxNumber>100</MaxNumber>
     </ParticleEffect>
     <ParticleEffect Name="ParticleEffectNew2">
       <Skin>Star</Skin>
@@ -665,7 +665,7 @@
       <Color Name="StaticColor" />
       <Type>Star</Type>
       <Size>25</Size>
-      <MaxNumber>250</MaxNumber>
+      <MaxNumber>100</MaxNumber>
     </ParticleEffect>
     <ParticleEffect Name="ParticleEffectNew3">
       <Skin>Star</Skin>
@@ -679,7 +679,7 @@
       <Color Name="StaticColor" />
       <Type>Star</Type>
       <Size>25</Size>
-      <MaxNumber>250</MaxNumber>
+      <MaxNumber>100</MaxNumber>
     </ParticleEffect>
     <ParticleEffect Name="ParticleEffectNew4">
       <Skin>Star</Skin>
@@ -693,7 +693,7 @@
       <Color Name="StaticColor" />
       <Type>Star</Type>
       <Size>25</Size>
-      <MaxNumber>250</MaxNumber>
+      <MaxNumber>100</MaxNumber>
     </ParticleEffect>
     <ParticleEffect Name="ParticleEffectNew5">
       <Skin>Star</Skin>
@@ -707,7 +707,7 @@
       <Color Name="StaticColor" />
       <Type>Star</Type>
       <Size>25</Size>
-      <MaxNumber>250</MaxNumber>
+      <MaxNumber>100</MaxNumber>
     </ParticleEffect>
     <ParticleEffect Name="ParticleEffectNew6">
       <Skin>Star</Skin>
@@ -721,7 +721,7 @@
       <Color Name="StaticColor" />
       <Type>Star</Type>
       <Size>25</Size>
-      <MaxNumber>250</MaxNumber>
+      <MaxNumber>100</MaxNumber>
     </ParticleEffect>
     <ParticleEffect Name="ParticleEffectNew7">
       <Skin>Star</Skin>
@@ -735,7 +735,7 @@
       <Color Name="StaticColor" />
       <Type>Star</Type>
       <Size>25</Size>
-      <MaxNumber>250</MaxNumber>
+      <MaxNumber>100</MaxNumber>
     </ParticleEffect>
     <ParticleEffect Name="ParticleEffectNew8">
       <Skin>Star</Skin>
@@ -749,7 +749,7 @@
       <Color Name="StaticColor" />
       <Type>Star</Type>
       <Size>25</Size>
-      <MaxNumber>250</MaxNumber>
+      <MaxNumber>100</MaxNumber>
     </ParticleEffect>
     <ParticleEffect Name="ParticleEffectNew9">
       <Skin>Star</Skin>
@@ -763,7 +763,7 @@
       <Color Name="StaticColor" />
       <Type>Star</Type>
       <Size>25</Size>
-      <MaxNumber>250</MaxNumber>
+      <MaxNumber>100</MaxNumber>
     </ParticleEffect>
     <ParticleEffect Name="ParticleEffectNew10">
       <Skin>Star</Skin>
@@ -777,7 +777,7 @@
       <Color Name="StaticColor" />
       <Type>Star</Type>
       <Size>25</Size>
-      <MaxNumber>250</MaxNumber>
+      <MaxNumber>100</MaxNumber>
     </ParticleEffect>
   </ParticleEffects>
   <ScreenSettings />
